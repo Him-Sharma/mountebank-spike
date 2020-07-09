@@ -1,0 +1,14 @@
+{
+  "name": "mountebank-spike",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "mb start --configfile src/imposter.ejs ----logfile logs/mb.log"
+  },
+  "author": "Himanshu Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "mountebank": "^2.2.1"
+  }
+}
