@@ -1,0 +1,22 @@
+
+{
+    "predicates": [
+      {
+        "equals": {
+          "method": "POST",
+          "path": "/posts"
+        }
+      }
+    ],
+    "responses": [
+      {
+        "is": {
+          "statusCode": 201,
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "body": "<%- stringify(filename, './stubs/response-template/createNewPostResponseTemplate.json') %>"
+        }
+      }
+    ]
+  }

@@ -1,0 +1,22 @@
+
+{
+    "predicates": [
+      {
+        "equals": {
+          "method": "GET",
+          "path": "/users"
+        }
+      }
+    ],
+    "responses": [
+      {
+        "is": {
+          "statusCode": 201,
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "body": "<%- stringify(filename, './stubs/response-template/usersResponseTemplate.json') %>"
+        }
+      }
+    ]
+  }
