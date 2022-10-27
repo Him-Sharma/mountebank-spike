@@ -9,6 +9,6 @@
   "author": "Himanshu Sharma",
   "license": "ISC",
   "devDependencies": {
-    "mountebank": "^2.3.3"
+    "mountebank": "^2.7.0"
   }
 }
